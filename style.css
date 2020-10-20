@@ -1,0 +1,21 @@
+.nav{
+    background-color: grey;
+    display:grid;
+    grid-template-columns:  12% 12% 12% 12% 12% 12% 12% 12% ;
+    grid-template-rows: 100px;
+}
+.fontAwesome {
+    font-family: 'Helvetica', FontAwesome, sans-serif;
+  }
+  .footer{
+      background-color:green;
+      grid:display;
+      grid-template-columns: 100%;
+      grid-template-rows: 200px;
+  }
+  .footer ul{
+      display:flex;
+      
+      width:80%;
+      margin:auto;
+  }
